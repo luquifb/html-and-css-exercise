@@ -1,0 +1,230 @@
+/* General */
+
+body {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 22px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 45px;
+}
+
+h2 {
+  font-weight: 100 !important;
+  font-size: 32px;
+  line-height: 35px;
+  padding: 15px 0 0 0;
+}
+
+
+/* Header */
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 0px;
+  height: 10px;
+  padding-bottom: 3%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  list-style-type: none;  
+  margin: 0 10px;
+}
+
+.top-left {
+  width: 30%;
+  margin: 0 0 0 10px;
+}
+
+.logo{
+  float: left;
+  width: 130px;
+  margin: 25px 5px 10px 10px;
+}
+
+header {
+  background-image: url("images/city-scape.svg");
+  background-color: rgb(32, 101, 136);
+  width: 100%;
+}
+
+.search-bar {
+  background-color: rgb(31, 82, 111);
+  width: 72%;
+  padding: 10px 10px;
+  margin-left: 5px;
+  margin-top: 20px;
+  border: 0.5px solid rgb(135, 145, 156);
+  font-size: 16px;
+}
+
+.search {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(135, 145, 156);
+}
+
+.img-log {
+  width: 45px;
+  padding-top: 10px;
+}
+
+.log-in {
+  margin: 15px 5px;
+}
+
+.button {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(135, 145, 156);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header-content {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header-text {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 100px;
+}
+
+button .header-text {
+  background-color: rgb(240, 146, 51);
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn-1 {
+  background: rgb(240, 146, 51);
+}
+
+.a-white {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Collaboration */
+
+#collaboration {
+  background: rgb(39, 53, 71);
+  padding: 150px 0;
+}
+
+.collaboration-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.collaboration-text{
+  float: right;
+  width: 40%;
+}
+
+.collaboration-img {
+  margin: 5px 55px;
+  width: 50%;
+  padding: 0 0;
+}
+
+.li-element {
+  margin-bottom: 20px;
+}
+
+.btn-2 {
+  background: rgb(203, 56, 55);
+}
+
+
+/* what is section */
+
+#what-is-npm {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  position: relative;
+  height: 500px;
+}
+
+.what-is-text {
+  position: absolute;
+  width: 27%;
+  left: 15%;
+  top: 17%;
+}
+
+.text-color {
+  color: white;
+}
+
+.btn-3{
+  background: rgb(49, 68, 88);
+}
+
+
+/* what can you make section */
+
+#what-can-you-make {
+  margin: 0 auto;
+  width: 1200px;
+  text-align: center;  
+  padding: 20px 0;
+}
+
+.col {
+  float: left;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin: 0 5%;
+}
+
+.title {
+  color: rgb(83, 88, 98);
+}
+
+.text {
+    margin: 0 auto;
+    width: 75%;
+    padding: 5px 0 40px 0;
+    color: rgb(135, 145, 156);
+}
+
+.red-link {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
